@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="picture\Logo.jpg" type="image/x-icon">
+    <title>Picture</Picture></title>
+    <style>
+
+body {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    background-color: #464258;
+    color: rgb(17, 199, 78);
+    font-weight: bold;
+}
+
+.main__wrapper {
+    padding: 10px;
+}
+
+.images__warp {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-top: 30px;
+    border: 5px solid #0df1adb0;
+    width: 90%;
+    min-height: 700px;
+    margin-left: 10px;
+}
+
+.image__container {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.image {
+    max-width: 1500px;
+    max-height: 1500px;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="main__wrapper">
+        <div class="txt">
+            <span>Введите описание картинки:</span><br>
+        </div>
+        <div class="input__wrapp">
+            <input id="imgOne" type="text" size="40">
+        </div>
+        <div class="txt">
+            <span>Введите ссылку на картинку:</span><br>
+        </div>
+        <div class="input__wrapp">
+            <input id="imgLink" type="text" size="40">
+        </div>
+        <div class="main__btn">
+            <br />
+            <button id="mainBtn">Отправить</button>
+            
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="images__warp"></div>
+</body>
+<script src="script.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
